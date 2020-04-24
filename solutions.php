@@ -56,10 +56,3 @@ function longestSubstr(string $text): string
 
     return implode(array_splice($string, 0, $counter));
 }
-
-echo findOddEvenPair([1, 2, 4, 3, 7, 5, 9, 10]) . PHP_EOL;
-
-$summationService = new SummationService([-1, 0, 2, 7, -15]);
-echo $summationService->sum(2, 4) . PHP_EOL;
-
-echo longestSubstr('aZaZaZ');
