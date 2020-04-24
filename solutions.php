@@ -17,8 +17,7 @@ function findOddEvenPair(array $numbers): int
         }
     }
 
-    if (isset($result[1])) return $result[count($result) - 1];
-    else return -1;
+    return $result[count($result) - 1];
 }
 
 class SummationService
